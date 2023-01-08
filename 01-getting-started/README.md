@@ -138,7 +138,11 @@ Deploy latest code:
 
 Share the URL with friends & family :)
 
-### Note on choice of tools
+## Exercise
+
+1. Get this up and running on your own machine, including deploying it and viewing your app on another device.
+
+## Note on choice of tools
 
 Preference for native platform (as supported by browsers):
 
@@ -161,15 +165,15 @@ Other good tools we could have used, but won't:
 - Jest (instead of Vitest)
 - Redux (state management)
 
-### Read the code
+## Read the code
 
 Try to get a cursory understanding by reading through the code of App.tsx several times. Help your understanding by sprinkling `console.log` statements here and there. You will learn how all the bits and pieces fit together plus a lot more, during this course.
 
-### Additional exercises
+## Additional exercises
 
 1. Include additional information about each album, such as release date.
 1. Add an additional input field to allow the user to filter on album name too.
 
 ## Next time
 
-HTML, CSS, JS
+[HTML, CSS, JavaScript](../02-html-css-js/).
