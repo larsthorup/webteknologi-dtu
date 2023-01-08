@@ -138,6 +138,29 @@ Deploy latest code:
 
 Share the URL with friends & family :)
 
+### Note on choice of tools
+
+Preference for native platform (as supported by browsers):
+
+- HTML built-in controls (no component libraries)
+- CSS
+- JavaScript (with types, see below)
+
+Preference for high quality tools (valuable, popular, modern, well maintained)
+
+- TypeScript (for type checking)
+- React (reactive over imperative)
+- Vite (for bundling)
+- Netlify (deployment)
+- Vitest (test runner)
+- Testing Library (rendering for testing)
+
+Other good tools we could have used, but won't:
+
+- Vue (instead of React)
+- Jest (instead of Vitest)
+- Redux (state management)
+
 ### Read the code
 
 Try to get a cursory understanding by reading through the code of App.tsx several times. Help your understanding by sprinkling `console.log` statements here and there. You will learn how all the bits and pieces fit together plus a lot more, during this course.
