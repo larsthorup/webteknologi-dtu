@@ -11,7 +11,7 @@
 
 ![](./lars-2016-03-24-350px.jpg)
 
-## Why is front-end web technology exiciting?
+## Why is front-end web technology exciting?
 
 - Low barrier to entry
   - In one day you can learn how to build and deploy an app that your parents can then use on their phone

@@ -2,13 +2,19 @@
 
 The core web platform - with no other tools but a browser.
 
-Please read: [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) from MDN by Mozilla.
+Please read: [Getting started with the web (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) by Mozilla.
 
-Note that the focus in on web sites; but we will also discuss how web applications differ from web sites.
+Note that the focus is on web sites; but we will also discuss how web applications differ from web sites.
 
 ## Supplemental reading material
 
 - [Fundamentals of Web apps](https://fullstackopen.com/en/part0/fundamentals_of_web_apps) from University of Helsinki
+
+## Why is HTML, CSS and JavaScript exciting?
+
+- Very mature, no competition, actively being improved
+- Accessible: plain text protocols, no compilation needed
+- Clear division of responsibility: structure, look, behavior
 
 ## Inspecting a simple web page
 
@@ -114,4 +120,4 @@ Note that the focus in on web sites; but we will also discuss how web applicatio
 
 ## Next time
 
-[JavaScript, TypeScript](..).
+[JavaScript and TypeScript](../03-javascript-typescript/).
