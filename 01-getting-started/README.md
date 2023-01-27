@@ -3,11 +3,12 @@
 ## Who is Lars Thorup?
 
 - Freelance software engineer: React, TypeScript, Node.js, Python, SQL, AWS
-- Invert Inc (2022), ZeroNorth (2021), BASE lifescience (2020)
 - CTO and co-founder at Triggerz (2015-2020)
 - External Lecturer at ITU (2001-2002)
-- Master in Computer Science (1994)
+- +25 years of web development experience
+- Master in Computer Science, University of Copenhagen (1994)
 - [LinkedIn](https://www.linkedin.com/in/larsthorup/)
+- Current day job at [Invert Inc](https://invertbio.com/)
 
 ![](./lars-2016-03-24-350px.jpg)
 
@@ -17,21 +18,43 @@
   - In one day you can learn how to build and deploy an app that your parents can then use on their phone
   - Easy to hire people globally to build and deliver new products
 
+## Who are you?
+
+How many of you:
+
+- have written less than 100 lines of HTML?
+- have written less than 100 lines of CSS?
+- have written less than 100 lines of JavaScript?
+- have your own personal blog or website? which tool do you use?
+- have shown your family software you have made?
+- know that some web apps can be used while offline?
+- have thought about ways to improve the web sites you use? examples?
+- have thought about how blind people use web sites?
+
 ## Overview of the entire course
 
 1. [Getting Started](.)
-1. HTML, CSS, JS
-1. JavaScript and TypeScript
+1. [HTML, CSS, JS](../02-html-css-js/)
+1. [JavaScript and TypeScript](../03-javascript-typescript/)
 1. React
 1. Testing
 1. Forms, routing
-1. UX, styling
+1. UX, styling, accessibility
 1. REST, HTTP
 1. Auth, security
 1. State
 1. Animation
 1. Architecture: SPA, PWA, MPA
 1. What's left to learn?
+
+## Inspecting a simple web page
+
+- [Blog of Lars Thorup](https://www.fullstackagile.eu/blog/)
+- Network tab (traffic, throttle)
+- Console (logs)
+- Inspector (HTML, CSS)
+- Device simulation
+- Lighthouse (assessment, Chrome only)
 
 ## Getting started
 
@@ -138,10 +161,6 @@ Deploy latest code:
 
 Share the URL with friends & family :)
 
-## Exercise
-
-1. Get this up and running on your own machine, including deploying it and viewing your app on another device.
-
 ## Note on choice of tools
 
 Preference for native platform (as supported by browsers):
@@ -166,9 +185,10 @@ Other good tools we could have used, but won't:
 - Vercel (instead of Netlify)
 - Redux (state management)
 
-## Read the code
+## Exercise
 
-Try to get a cursory understanding by reading through the code of App.tsx several times. Help your understanding by sprinkling `console.log` statements here and there. You will learn how all the bits and pieces fit together plus a lot more, during this course.
+1. Get this up and running on your own machine, including deploying it and viewing your app on another device.
+1. Try to get a cursory understanding by reading through the code of App.tsx several times. Help your understanding by sprinkling `console.log` statements here and there. You will learn how all the bits and pieces fit together plus a lot more, during this course.
 
 ## Additional exercises
 

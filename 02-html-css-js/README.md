@@ -16,15 +16,6 @@ Note that the focus is on web sites; but we will also discuss how web applicatio
 - Accessible: plain text protocols, no compilation needed
 - Clear division of responsibility: structure, look, behavior
 
-## Inspecting a simple web page
-
-- [Blog of Lars Thorup](https://www.fullstackagile.eu/blog/)
-- Network tab (traffic, throttle)
-- Console (logs)
-- Inspector (HTML, CSS)
-- Device simulation
-- Lighthouse (assessment, Chrome only)
-
 ## Installing basic software
 
 [Install basic software (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software).
