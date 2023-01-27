@@ -6,6 +6,11 @@ Please read:
 
 - [JavaScript Language Overview (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview) by Mozilla.
 - [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) by Microsoft.
+- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) by Microsoft
+
+## Supplemental reading material
+
+- [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) by Microsoft.
 
 ## Why is JavaScript exciting?
 
@@ -114,16 +119,59 @@ In JavaScript the type of values are used and checked at _run-time_.
 - `globalThis` (or `Window` in the browser)
 - `console`, `Math`, `DOM`, `fetch`
 
+## Basic types
+
+- `string`, `number`, `boolean`
+- `string[]`
+- `any`
+- `(n: number) => number`
+- `{ id: number; name: string }`
+- `document.getElementById('name') as HTMLInputElement`
+
+## Type inference
+
+- inferred: `const name = 'Lars'`
+- inferred: `[1, 2, 3].map(n => n * n)`
+- explicit: `const name: string = 'Lars'`
+- explicit: `function square(n: number): number { return n * n; }`
+- both: `function square(n: number) { return n * n; }`
+
+## Defining types
+
+- new types: `interface User { id: number, name: string }`
+- type alias: `type WindowState = "open" | "closed" | "minimized"`
+
+## Union types
+
+- `getLength(obj: string | string[]) => obj.length`
+- `let user: string | undefined`
+
+## Generic types
+
+- `Array<string>` or `string[]`
+- `interface Backpack<Item> { ... }`
+
+## Structural typing
+
+- Type checks based on type "shape", not type "name"
+
 ## Naming conventions
+
+- `camelCase` - variables, functions
+- `PascalCase` - classes, components, types
+- `kebab-case` - file names, CSS class names
+- `snake_case` - Python
+- `UPPERCASE` - global constants
 
 ## Transpilation and bundling
 
-While we CAN serve individual JavaScript files (with type annotations) directly to the browser, we usually WANT to
+While we CAN serve individual JavaScript files (with type annotations) directly to the browser, we usually WANT to bundle them.
 
 - We want to bundle into few larger files to decrease latency
   - (But also chunk into more than one large file to decrease transfer size and time)
 - We can now just as well transpile from TypeScript for better code syntax
 - We now have to also produce and serve source-maps for better debugging
+- We use the [Vite](https://vitejs.dev/) bundler for this, see [Getting Started](../01-getting-started/).
 
 ![](./bundling.png)
 
@@ -131,4 +179,4 @@ While we CAN serve individual JavaScript files (with type annotations) directly 
 
 ## Next time
 
-[](../03-javascript-typescript/).
+[React](..).

@@ -21,7 +21,7 @@
 
 1. [Getting Started](.)
 1. HTML, CSS, JS
-1. JavaScript, TypeScript
+1. JavaScript and TypeScript
 1. React
 1. Testing
 1. Forms, routing
@@ -119,8 +119,8 @@ Look at the "network" tab in the developer tools.
 
 Get access on Netlify:
 
-- Sign up for a free plan on [Netlify](netlify.com).
-  - You can also use [Vercel](vercel.com)
+- Sign up for a free plan on [Netlify](https://www.netlify.com/).
+  - You might also be able to use [Vercel](https://vercel.com/)
   - or GitHub / GitLab / Cloudflare Pages
 - `npm install -g netlify-cli`
 - `ntl --version`
@@ -163,6 +163,7 @@ Other good tools we could have used, but won't:
 
 - Vue (instead of React)
 - Jest (instead of Vitest)
+- Vercel (instead of Netlify)
 - Redux (state management)
 
 ## Read the code
@@ -171,7 +172,7 @@ Try to get a cursory understanding by reading through the code of App.tsx severa
 
 ## Additional exercises
 
-1. Include additional information about each album, such as release date.
+1. Display additional information about each album, such as release date.
 1. Add an additional input field to allow the user to filter on album name too.
 
 ## Next time
