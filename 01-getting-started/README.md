@@ -22,14 +22,16 @@
 
 How many of you:
 
-- have written less than 100 lines of HTML?
-- have written less than 100 lines of CSS?
-- have written less than 100 lines of JavaScript?
-- have your own personal blog or website? which tool do you use?
-- have shown your family software you have made?
-- know that some web apps can be used while offline?
-- have thought about ways to improve the web sites you use? examples?
-- have thought about how blind people use web sites?
+1. have written less than 100 lines of HTML?
+1. have written less than 100 lines of CSS?
+1. have written less than 100 lines of JavaScript?
+1. have your own personal blog or website?
+   - which tool do you use?
+1. have shown your family software you have made?
+1. know that some web apps can be used while offline?
+1. have thought about ways to improve the web sites you use?
+   - examples?
+1. have thought about how blind people use web sites?
 
 ## Overview of the entire course
 
