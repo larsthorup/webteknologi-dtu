@@ -54,6 +54,8 @@ Note that the focus is on web sites; but we will also discuss how web applicatio
 - Lists
 - Links
 
+Walk through HTML of [Lars' blog](https://www.fullstackagile.eu/blog/).
+
 ## CSS basics
 
 [CSS basics (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics).
@@ -66,6 +68,8 @@ Note that the focus is on web sites; but we will also discuss how web applicatio
 - Body formatting
 - Title formatting
 - Image centering
+
+Walk through CSS of [Lars' blog](https://www.fullstackagile.eu/blog/).
 
 ## JavaScript basics
 
@@ -83,6 +87,8 @@ Note that the focus is on web sites; but we will also discuss how web applicatio
 - LocalStorage API: setItem(), getItem()
 - null
 
+Use JavaScript in the console to manipulate [Lars' blog](https://www.fullstackagile.eu/blog/).
+
 ## How the web works
 
 [How the web works (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works).
@@ -92,15 +98,15 @@ Note that the focus is on web sites; but we will also discuss how web applicatio
 - Protocols: DNS, HTTP, TCP/IP
 - Fetching, parsing, executing, painting
 
+![How the web works](./manekinekko-web.jpg)
+
+(thanks to [@manekinekko](https://twitter.com/manekinekko/status/1281704000572858375?s=20))
+
 ## Web applications vs web sites
 
 - No clear distinction
 - Web sites are more "document" oriented
 - Web applications are more "UI" oriented
-
-## Exercise
-
-- Create your own HTML, CSS and JavaScript files, trying out the various features discussed above.
 
 ## So why do we then want to use all those additional tools?
 
@@ -112,3 +118,8 @@ Note that the focus is on web sites; but we will also discuss how web applicatio
 ## Next time
 
 [JavaScript and TypeScript](../03-javascript-typescript/).
+
+## Exercise
+
+- Start creating project groups: 4-6 people per group
+- Create your own HTML, CSS and JavaScript files, trying out the various features discussed above.
