@@ -116,7 +116,7 @@ In JavaScript the type of values are used and checked at _run-time_.
 
 ## Language and runtime
 
-- `globalThis` (or `Window` in the browser)
+- `globalThis` (or `window` in the browser)
 - `console`, `Math`, `DOM`, `fetch`
 
 ## Basic types
@@ -165,7 +165,7 @@ In JavaScript the type of values are used and checked at _run-time_.
 
 ## Transpilation and bundling
 
-While we CAN serve individual JavaScript files (with type annotations) directly to the browser, we usually WANT to bundle them.
+While we CAN serve individual JavaScript files directly to the browser, we usually WANT to bundle them.
 
 - We want to bundle into few larger files to decrease latency
   - (But also chunk into more than one large file to decrease transfer size and time)
@@ -179,4 +179,4 @@ While we CAN serve individual JavaScript files (with type annotations) directly 
 
 ## Next time
 
-[React](..).
+[React](../04-react/).
