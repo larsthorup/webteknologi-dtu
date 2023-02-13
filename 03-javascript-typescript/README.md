@@ -1,4 +1,4 @@
-# JavaScript and TypeScript - front-end web technology - 2023-02-06
+# JavaScript and TypeScript - front-end web technology - 2023-02-13
 
 The programming language of the web - with static typing as an add-on.
 
@@ -76,6 +76,8 @@ In JavaScript the type of values are used and checked at _run-time_.
 - keys are strings (or symbols)
 - `obj.key`, `obj[key]`
 - assignment by reference (not cloned)
+- object destructuring with spread operator: `const {name} = user`
+- shallow object copying with spread operator: `const user2 = {...user}`
 - `for..in`
 
 ## Arrays
@@ -84,6 +86,8 @@ In JavaScript the type of values are used and checked at _run-time_.
 - `[1, 2, 3, 'what?']`
 - `a[index]`
 - `a.length`
+- array destructuring with spread operator: `const [x, y] = point`
+- shallow array copying with spread operator: `const point2 = [...point1]`
 - `for..of`
 
 ## Functions
@@ -109,6 +113,10 @@ In JavaScript the type of values are used and checked at _run-time_.
 - callbacks
 - promises
 - `async`, `await`
+
+![JavaScript event loop diagram](./javascript-event-loop-webdevolution.png)
+
+(thanks to [@webdevolution\_](https://twitter.com/webdevolution_/status/1408393027702476806))
 
 ## Modules
 
@@ -173,7 +181,7 @@ While we CAN serve individual JavaScript files directly to the browser, we usual
 - We now have to also produce and serve source-maps for better debugging
 - We use the [Vite](https://vitejs.dev/) bundler for this, see [Getting Started](../01-getting-started/).
 
-![](./bundling.png)
+![Vite bundles source files to deployable files](./bundling.png)
 
 (diagram via https://jonhilton.net/)
 
