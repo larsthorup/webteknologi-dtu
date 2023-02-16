@@ -62,6 +62,10 @@ Please read:
 
 - https://github.com/larsthorup/react-diagram
 
+## React Dev Tools
+
+- https://beta.reactjs.org/learn/react-developer-tools
+
 ## Next time
 
 [Testing](..).
