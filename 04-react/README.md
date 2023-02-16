@@ -19,6 +19,7 @@ Please read:
   - https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
 - React is in active development with a friendly community
 - As a library, React composes well with other technologies
+- React scheduling easier (for me) to reason about than event streams and signals
 
 ## Components
 
@@ -56,6 +57,10 @@ Please read:
 - State updates request a re-render of component and children
 - After rendering, React will commit only the changed elements to the DOM
 - Browser will then paint those changes in the DOM
+
+## React Diagram
+
+- https://github.com/larsthorup/react-diagram
 
 ## Next time
 
