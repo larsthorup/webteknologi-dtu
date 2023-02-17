@@ -39,7 +39,7 @@ How many of you:
 1. [HTML, CSS, JS](../02-html-css-js/)
 1. [JavaScript and TypeScript](../03-javascript-typescript/)
 1. [React](../04-react/)
-1. Testing
+1. [Testing](../05-testing/)
 1. Forms, routing
 1. UX, styling, accessibility
 1. REST, HTTP
