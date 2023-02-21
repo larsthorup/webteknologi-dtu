@@ -181,6 +181,37 @@ describe(AlbumPicker.name, () => {
 
 View the page in a browser at specific points in your test with [vitest-preview](https://github.com/nvh95/vitest-preview).
 
+## Contnuous Integration
+
+Run tests on every push.
+
+Add line inside "scripts" in `package.json`:
+
+```json
+"test": "tsc && vitest --run --coverage && vite build"
+```
+
+If your repo is on GitHub, create this `.github/workflows/ci.yml` file:
+
+```yaml
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: npm ci
+      - run: npm test
+```
+
 ## Next time
 
-[Forms, routing](..).
+[Forms](../06-forms/).

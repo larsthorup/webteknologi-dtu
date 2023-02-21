@@ -40,12 +40,12 @@ How many of you:
 1. [JavaScript and TypeScript](../03-javascript-typescript/)
 1. [React](../04-react/)
 1. [Testing](../05-testing/)
-1. Forms, routing
+1. [Forms](../06-forms/)
 1. UX, styling, accessibility
 1. REST, HTTP
 1. Auth, security
 1. State
-1. Animation
+1. Routing, Animation
 1. Architecture: SPA, PWA, MPA
 1. What's left to learn?
 
