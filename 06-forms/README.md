@@ -18,7 +18,7 @@ Please read:
 ## Why are forms exciting?
 
 - Forms - _all_ apps need users to enter information
-- Forms are high agony necessity - lots of UX opportunities
+- Forms are a high agony necessity - lots of UX opportunities
 
 ## Forms
 
