@@ -1,6 +1,6 @@
 # Forms - front-end web technology - 2023-02-20
 
-Entering information on different pages.
+Enable users to enter information.
 
 Please read:
 
