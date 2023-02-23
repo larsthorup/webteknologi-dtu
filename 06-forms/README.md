@@ -13,7 +13,6 @@ Please read:
 - [Reacting to input with state](https://beta.reactjs.org/learn/reacting-to-input-with-state)
 - [Sharing State Between Components](https://beta.reactjs.org/learn/sharing-state-between-components)
 - [React `<input>`](https://beta.reactjs.org/reference/react-dom/components/input)
-- [React `<select>`](https://beta.reactjs.org/reference/react-dom/components/select)
 
 ## Why are forms exciting?
 
