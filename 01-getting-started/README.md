@@ -41,8 +41,8 @@ How many of you:
 1. [React](../04-react/)
 1. [Testing](../05-testing/)
 1. [Forms](../06-forms/)
-1. UX, styling, accessibility
-1. REST, HTTP
+1. [UX, styling, accessibility](../07-ux-styling/)
+1. [HTTP](../08-http/)
 1. Auth, security
 1. State
 1. Routing, Animation

@@ -38,7 +38,7 @@ Please read:
 - All client-side validation must always be **in addition to** server-side validation
 - **Prevent** invalid input (e.g. numeric input)
 - **Immediate feedback**, if not too "loud" (e.g. new passwod input)
-- **Feedback on submit**, otherwise
+- **Feedback on submit**, in most cases
 - Required fields, valid range, valid format
 - Cross field validation (new password)
 - Style depending on input being valid
@@ -68,10 +68,10 @@ Please read:
 - Use `.type()`, `.selectOption()`, `.click()` from `@testing-library/user-event`
 - To replace value in `<input type="number">`, which cannot be blanked use this trick:
   - `user.type(numericInput, "5{arrowleft}{backspace}")`
-- Submit form by clicking the submit button
+- Submit form by firing the submit event to the form
 - Test validation using `.toBeValid()` and `.toBeInvalid()` from `jest-dom`.
 - Test custom validation error message with `expect(input.validationMessage).toEqual("...")`
 
 ## Next time
 
-[UX, styling](..).
+[UX, styling](../07-ux-styling/).
