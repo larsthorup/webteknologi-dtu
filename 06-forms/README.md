@@ -19,6 +19,16 @@ Please read:
 - Forms - _all_ apps need users to enter information
 - Forms are a high agony necessity - lots of UX opportunities
 
+## Examples
+
+- greentown.dk
+- signup
+- newsletter
+- add to cart
+- (adjust cart is not a form)
+- accept terms and conditions
+- delivery
+
 ## Forms
 
 - Form element: onSubmit
@@ -37,7 +47,7 @@ Please read:
 
 - All client-side validation must always be **in addition to** server-side validation
 - **Prevent** invalid input (e.g. numeric input)
-- **Immediate feedback**, if not too "loud" (e.g. new passwod input)
+- **Immediate feedback**, if not too "loud" (e.g. new password input)
 - **Feedback on submit**, in most cases
 - Required fields, valid range, valid format
 - Cross field validation (new password)
@@ -56,9 +66,13 @@ Please read:
     - Expandable / collapsible section
     - `<input type="file">`
     - `<input defaultValue={initialValue}>`
+  - Combined:
+    - Combobox, auto-complete, suggestions
+    - Two controlled inputs internally: `<input>` and `<select>`.
+    - Uncontrolled externally, exposing only the `<input>`
 - Controlled pros / cons:
   - more fine-grained customization, such as character limitations, disable submit when invalid
-  - more effort to work well, risk of "jumbled" input
+  - more effort to work well, risk of "slow" input
 - Uncontrolled pros / cons:
   - simpler, features like validation for free
   - less customizable, like validation error reporting
