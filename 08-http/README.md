@@ -57,6 +57,7 @@ Please read:
 
 - manual type definition
 - OpenAPI, type generation
+- dynamic type check
 
 ## Debugging
 
