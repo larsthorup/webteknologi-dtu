@@ -54,12 +54,14 @@ Which techniques can we use to implement experiences?
 - Media queries
 - Table / Grid
 - [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- Inspiration: https://dribbble.com/
 
 ## Colors
 
 - color roles: primary, secondary, background, surface, error
 - color palette / color scheme
 - light/dark-mode: `@media (prefers-color-scheme: dark)`
+- Inspiration: https://coolors.co/
 
 ## Accessibility
 
