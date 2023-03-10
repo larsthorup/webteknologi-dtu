@@ -9,6 +9,7 @@ Please read:
 - [HTTP Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [Synchronizing with Effects](https://beta.reactjs.org/learn/synchronizing-with-effects)
 
 ## Why is HTTP exciting?
 
@@ -42,22 +43,29 @@ Please read:
 ## HTTP from JavaScript
 
 - fetch
+- response: ok, status, statusText, json
 - url encoding, URL, URLSearchParams
 - JSON serialization: parse(), stringify()
-- base64 encoding for binary data
+- Base64 (ASCII) encoding for binary data: btoa(), atob()
 
 ## HTTP from React
 
-- useEffect
+- event handler
+- useEffect, dependencies, cleanup
 - loading indicators
 - error reporting
-- caching, cache invalidation
+- browser caching, app caching, cache invalidation
 
-## HTTP types for TypeScript
+## HTTP type safety
 
 - manual type definition
 - OpenAPI, type generation
-- dynamic type check
+- run-time type validation
+
+## Testing HTTP requests
+
+- mock fetch
+- simulating errors
 
 ## Debugging
 
