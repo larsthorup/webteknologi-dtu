@@ -1,4 +1,4 @@
-# HTML, CSS, JavaScript - front-end web technology - 2023-02-06
+# HTML, CSS, JavaScript - front-end web technology
 
 The core web platform - with no other tools but a browser.
 

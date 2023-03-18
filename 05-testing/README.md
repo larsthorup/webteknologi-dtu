@@ -1,4 +1,4 @@
-# Testing - front-end web technology - 2023-02-27
+# Testing - front-end web technology
 
 Verify that your UI works, automated.
 

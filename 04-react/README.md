@@ -1,4 +1,4 @@
-# React - front-end web technology - 2023-02-20
+# React - front-end web technology
 
 The most popular UI framework.
 

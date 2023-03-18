@@ -1,4 +1,4 @@
-# HTTP - front-end web technology - 2023-03-20
+# HTTP - front-end web technology
 
 Fetch and send data between the browser and servers
 
@@ -74,4 +74,4 @@ Please read:
 
 ## Next time
 
-[Security](..).
+[Routing, Animation](..).

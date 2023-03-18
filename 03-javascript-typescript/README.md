@@ -1,4 +1,4 @@
-# JavaScript and TypeScript - front-end web technology - 2023-02-13
+# JavaScript and TypeScript - front-end web technology
 
 The programming language of the web - with static typing as an add-on.
 

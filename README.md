@@ -10,8 +10,8 @@
 - 2023-03-06 - [Forms](./06-forms/)
 - 2023-03-13 - [UX, styling, accessibility](./07-ux-styling/)
 - 2023-03-20 - [HTTP](./08-http/)
-- Auth, security
+- 2023-03-27 - [Routing, Animation](./09-routing-animation/)
 - State
-- Routing, Animation
+- Auth, security
 - Architecture: SPA, PWA, MPA
 - What's left to learn?

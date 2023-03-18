@@ -1,4 +1,4 @@
-# UX, styling, accessibility - front-end web technology - 2023-03-13
+# UX, styling, accessibility - front-end web technology
 
 Make your app a joy to use
 

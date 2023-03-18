@@ -1,4 +1,4 @@
-# Forms - front-end web technology - 2023-03-06
+# Forms - front-end web technology
 
 Enable users to enter information.
 
