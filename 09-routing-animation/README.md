@@ -6,8 +6,8 @@ Please read:
 
 - [History API](https://developer.mozilla.org/en-US/docs/Web/API/History)
 - [popstate event](https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event)
+- [Using CSS transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)
 - [Using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
-- [Using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 
 ## Supplemental reading material
 
@@ -58,7 +58,42 @@ Path-based routing is possible with client-side routing, but require URL rewrite
 - `history.pushState` - to ensure that back will work
 - `popstate`, `dispatchEvent` - trigger the listener to synchronize with app state
 
-## CSS Transitions and Animations
+## CSS Transitions
+
+- animatable properties: opacity, size, color, position, rotation, many more
+- may use `transform` for relative changes: scale, translate, rotate
+- `transition`: property, duration, timing-function, delay
+- transitions acts on property changes on that element caused
+- change properties with pseudo selector (e.g. `:hover`) or class names
+- explore timing functions: - https://easings.net/
+
+Sample call-to-action button transition:
+
+```css
+.call-to-action button {
+  transition: transform 0.2s ease-in;
+}
+
+.call-to-action button:hover {
+  transform: scale(1.1);
+}
+```
+
+Sample navigation transition:
+
+```css
+.page {
+  transition: opacity 0.4s ease-in;
+}
+
+.page.navigating {
+  opacity: 0;
+}
+
+.page.navigated {
+  opacity: 1;
+}
+```
 
 ## Next time
 
