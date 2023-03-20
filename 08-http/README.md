@@ -10,6 +10,7 @@ Please read:
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects)
+- [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
 
 ## Why is HTTP exciting?
 
