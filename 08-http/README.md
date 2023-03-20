@@ -9,7 +9,7 @@ Please read:
 - [HTTP Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-- [Synchronizing with Effects](https://beta.reactjs.org/learn/synchronizing-with-effects)
+- [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects)
 
 ## Why is HTTP exciting?
 

@@ -4,14 +4,14 @@ The most popular UI framework.
 
 Please read:
 
-- [Quick Start](https://beta.reactjs.org/learn) from Facebook.
-- [Thinking in React](https://beta.reactjs.org/learn/thinking-in-react) from Facebook.
-- [Describing the UI](https://beta.reactjs.org/learn/describing-the-ui) from Facebook.
-- [Adding Interactivity](https://beta.reactjs.org/learn/adding-interactivity) from Facebook.
+- [Quick Start](https://react.dev/learn) from Facebook.
+- [Thinking in React](https://react.dev/learn/thinking-in-react) from Facebook.
+- [Describing the UI](https://react.dev/learn/describing-the-ui) from Facebook.
+- [Adding Interactivity](https://react.dev/learn/adding-interactivity) from Facebook.
 
 ## Supplemental reading material
 
-- [Tutorial: Tic-Tac-Toe](https://beta.reactjs.org/learn/tutorial-tic-tac-toe) from Facebook.
+- [Tutorial: Tic-Tac-Toe](https://react.dev/learn/tutorial-tic-tac-toe) from Facebook.
 
 ## Why is React exciting?
 
@@ -64,7 +64,7 @@ Please read:
 
 ## React Dev Tools
 
-- https://beta.reactjs.org/learn/react-developer-tools
+- https://react.dev/learn/react-developer-tools
 
 ## Next time
 

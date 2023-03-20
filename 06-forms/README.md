@@ -8,11 +8,11 @@ Please read:
 - [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
 - [Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)
 - [The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)
-- [Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)(
+- [Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)
 - [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-- [Reacting to input with state](https://beta.reactjs.org/learn/reacting-to-input-with-state)
-- [Sharing State Between Components](https://beta.reactjs.org/learn/sharing-state-between-components)
-- [React `<input>`](https://beta.reactjs.org/reference/react-dom/components/input)
+- [Reacting to input with state](https://react.dev/learn/reacting-to-input-with-state)
+- [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+- [React `<input>`](https://react.dev/reference/react-dom/components/input)
 
 ## Why are forms exciting?
 
