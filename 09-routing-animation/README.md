@@ -43,7 +43,7 @@ Client-side routing:
 - Query-based routing: `/?page=basket`, `/?page=delivery`
 - Benefit: sharable links, no page load on navigation
 
-Path-based routing is possible with client-side routing, but require URL rewrite rules to be configured server side for sharable links to work.
+Path-based routing is possible with client-side routing, but require URL rewrite rules to be configured server side for sharable links to work. This is recommended, but outside the scope of this course, as every server framework handles this differently. For Netlify, this can be done with a `_redirects` file, see https://docs.netlify.com/routing/redirects/.
 
 ## Client-side routing
 
