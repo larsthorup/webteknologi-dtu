@@ -38,9 +38,13 @@ For a somewhat serious example of storing state in the URL, look at this cute li
 
 ## What's wrong with useState and props?
 
+- Passing state up and down the component hierachy is a very verbose
+- Refactoring component structure becomes very tedious
+- Refactoring state structure becomes very tedious
+
 ## useReducer - reactive objects
 
-- Combination a set of properties into a single state
+- Combining a set of properties into a single state
 - Transactionally update set of properties
 - Works like a state machine
 - Must be pure - no side-effects
@@ -55,7 +59,7 @@ How it works:
 - Separate into multiple contexts for improved reactive performance
 - Separate into state and dispatch contexts for improved reactive performance
 
-How to code, an example:
+Example code structure:
 
 ```tsx
 // Type of state
