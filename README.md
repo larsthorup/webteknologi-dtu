@@ -11,7 +11,7 @@
 - 2023-03-13 - [UX, styling, accessibility](./07-ux-styling/)
 - 2023-03-20 - [HTTP](./08-http/)
 - 2023-03-27 - [Routing, Animation](./09-routing-animation/)
-- State
+- 2023-04-17 - [State](./10-state/)
 - Auth, security
-- Architecture: SPA, PWA, MPA
+- Architecture: SPA, PWA, MPA, SSR, SSG, hybrids
 - What's left to learn?

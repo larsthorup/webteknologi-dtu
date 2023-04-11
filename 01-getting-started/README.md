@@ -43,8 +43,8 @@ How many of you:
 1. [Forms](../06-forms/)
 1. [UX, styling, accessibility](../07-ux-styling/)
 1. [HTTP](../08-http/)
-1. Routing, Animation
-1. State
+1. [Routing, Animation](../09-routing-animation/)
+1. [State](../10-state/)
 1. Auth, security
 1. Architecture: SPA, PWA, MPA
 1. What's left to learn?

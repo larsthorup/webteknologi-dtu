@@ -97,4 +97,4 @@ Sample navigation transition:
 
 ## Next time
 
-[State](..).
+[State](../10-state/).
