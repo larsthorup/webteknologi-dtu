@@ -45,8 +45,7 @@ How many of you:
 1. [HTTP](../08-http/)
 1. [Routing, Animation](../09-routing-animation/)
 1. [State](../10-state/)
-1. Auth, security
-1. Architecture: SPA, PWA, MPA
+1. [Security](../11-security/)
 1. What's left to learn?
 
 ## Inspecting a simple web page

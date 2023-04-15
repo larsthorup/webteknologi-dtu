@@ -12,6 +12,6 @@
 - 2023-03-20 - [HTTP](./08-http/)
 - 2023-03-27 - [Routing, Animation](./09-routing-animation/)
 - 2023-04-17 - [State](./10-state/)
-- Auth, security
-- Architecture: SPA, PWA, MPA, SSR, SSG, hybrids
+- 2023-04-24 - [Security](./11-security/)
+- 2023-05-01 - Recap
 - What's left to learn?
