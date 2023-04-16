@@ -92,10 +92,11 @@ Supplemental reading:
 - Put token in `Authorization` HTTP header, as a bearer token
 - Verify signature of token server-side
 - This now proves that request was made from recently authenticated user
+- Use https://jwt.io/ to decode tokens
 
 ## Implementing password-less authentication with Descope magic links
 
-- Signup and create a project on descope.com
+- Signup and create a project on https://www.descope.com/
 - Ask Descope to send email with link
 - Link to our app with token in URL
 - Ask Descope to verify token and return a session token JWT plus user info

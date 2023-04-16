@@ -46,7 +46,7 @@ How many of you:
 1. [Routing, Animation](../09-routing-animation/)
 1. [State](../10-state/)
 1. [Security](../11-security/)
-1. What's left to learn?
+1. [Technology Map](../12-technology-map/)
 
 ## Inspecting a simple web page
 
