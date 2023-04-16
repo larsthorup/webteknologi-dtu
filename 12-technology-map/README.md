@@ -13,8 +13,8 @@ What else to learn in addition to what we have already covered in [this course](
 
 Legend:
 
-- <span style="color:green">⬤</span> good popular things I recommend
-- <span style="color:purple">⬤</span> relevant to try
+- :green_heart: good popular things I recommend
+- :eyes: relevant to try
 
 ## Rendering
 
