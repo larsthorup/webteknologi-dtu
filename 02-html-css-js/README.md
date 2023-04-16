@@ -110,8 +110,8 @@ Use JavaScript in the console to manipulate [Lars' blog](https://www.fullstackag
 
 ## So why do we then want to use all those additional tools?
 
-- [TypeScript](..) (for type checking)
-- [React](..) (reactive over imperative)
+- [TypeScript](../03-javascript-typescript/) (for type checking)
+- [React](../04-react/) (reactive over imperative)
 - Vite (for bundling)
 - Netlify (deployment)
 

@@ -1,6 +1,6 @@
 # Technology Map - front-end web technology
 
-What else to learn in addition to what we have already covered in [this course](..)?
+What else to learn in addition to what we have already covered in [this course](../README.md)?
 
 ## How to choose technology for your next project?
 
