@@ -2,6 +2,8 @@
 
 What else to learn in addition to what we have already covered in [this course](../README.md)?
 
+(Note: this list is biased by my personal experience and interests, there are many more interesting technologies out there!)
+
 ## How to choose technology for your next project?
 
 - It is widely used
@@ -69,11 +71,15 @@ Legend:
 - :eyes: [useRef](https://react.dev/reference/react/useRef)
 - :eyes: [React Server Components](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md) - (work in progress) hybrid client and server rendering
 
-## Components
+## Components and functions
 
-- :green_heart: [Headless UI](https://headlessui.com/) - bring your own styling
-- :green_heart: [Material UI](https://mui.com/)
-- :eyes: [Chakra UI](https://chakra-ui.com/)
+- :green_heart: [Headless UI](https://headlessui.com/) - components; bring your own styling
+- :green_heart: [Material UI](https://mui.com/) - components with styling
+- :eyes: [Chakra UI](https://chakra-ui.com/) - components with styling
+- :eyes: [React Spring](https://github.com/pmndrs/react-spring) - animations
+- :green_heart: [Ramda](https://github.com/ramda/ramda) - immutable data structure manipulation
+- :green_heart: [date-fns](https://github.com/date-fns/date-fns) - tima and date manipulation
+- :green_heart: [clsx](https://github.com/lukeed/clsx) - className manipulation
 
 ## State management
 
@@ -120,6 +126,7 @@ Legend:
 ## Testing
 
 - :green_heart: [Vitest](https://vitest.dev/)
+- :green_heart: [Testing Library](https://testing-library.com/)
 - :green_heart: [Mocking time and timers](https://vitest.dev/guide/mocking.html)
 - :green_heart: [msw](https://mswjs.io/) - mock HTTP requests
 - :green_heart: [Playwright](https://playwright.dev/) - run tests in real browsers
