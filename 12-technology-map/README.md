@@ -71,20 +71,27 @@ Legend:
 - :eyes: [useRef](https://react.dev/reference/react/useRef)
 - :eyes: [React Server Components](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md) - (work in progress) hybrid client and server rendering
 
-## Components and functions
+## Component libraries
 
 - :green_heart: [Headless UI](https://headlessui.com/) - components; bring your own styling
 - :green_heart: [Material UI](https://mui.com/) - components with styling
 - :eyes: [Chakra UI](https://chakra-ui.com/) - components with styling
+
+## Function libraries
+
 - :eyes: [React Spring](https://github.com/pmndrs/react-spring) - animations
 - :green_heart: [Ramda](https://github.com/ramda/ramda) - immutable data structure manipulation
 - :green_heart: [date-fns](https://github.com/date-fns/date-fns) - tima and date manipulation
 - :green_heart: [clsx](https://github.com/lukeed/clsx) - className manipulation
 
-## State management
+## State management libraries
 
 - :green_heart: [Redux Toolkit](https://redux-toolkit.js.org/)
 - :eyes: [Recoil](https://recoiljs.org/)
+
+## Routing libraries
+
+- :green_heart: [React Router](https://reactrouter.com/)
 
 ## HTTP
 
@@ -97,15 +104,11 @@ Legend:
 - :eyes: [GraphQL](https://graphql.org/) - query language for APIs
 - :eyes: [tRPC](https://trpc.io/) - end-to-end type safety
 
-## Routing
-
-- :green_heart: [React Router](https://reactrouter.com/)
-
 ## Security
 
 - :green_heart: [OAUTH](https://aaronparecki.com/oauth-2-simplified/) - integrate with an identity provider
 
-## Cross-platform support
+## Cross-platform tools
 
 - :green_heart: [React Native](https://reactnative.dev/) - JavaScript and React on mobile devices
 - :green_heart: [React Native for Web](https://necolas.github.io/react-native-web/) - React Native components for web apps
