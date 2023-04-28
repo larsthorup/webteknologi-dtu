@@ -58,6 +58,17 @@ Path-based routing is possible with client-side routing, but require URL rewrite
 - `history.pushState` - to ensure that back will work
 - `popstate`, `dispatchEvent` - trigger the listener to synchronize with app state
 
+## Diagram
+
+0. Add `popStateHandler` as "popstate" event listener
+1. Render page with default state
+2. User clicks on link to another page
+3. Click handler pushes new URL and dispatch popstate event
+4. `popStateHandler` reads URL and changes state
+5. State change triggers re-render
+
+![Diagram of client-side routing](./routing.png)
+
 ## CSS Transitions
 
 - animatable properties: opacity, size, color, position, rotation, many more

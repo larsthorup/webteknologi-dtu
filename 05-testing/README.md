@@ -177,11 +177,15 @@ describe(AlbumPicker.name, () => {
 });
 ```
 
+## Diagram
+
+![Vitest, jsdom, React](./vitest-jsdom-diagram.png)
+
 ## Debugging
 
 View the page in a browser at specific points in your test with [vitest-preview](https://github.com/nvh95/vitest-preview).
 
-## Contnuous Integration
+## Continuous Integration
 
 Run tests on every push.
 
