@@ -65,13 +65,14 @@ Goal: get a tiny front-end web application running locally on your machine and d
 
 - Install from https://nodejs.org/en/ unless you have it already
 - `node --version`
-  - Should be at least version 16.
+  - Should be at least version 18.
 
 ### Git repo
 
 - GitHub / GitLab, create blank repo
 - `git clone (repo-url)`
 - `cd (directory)`
+- delete the `README.md` file if there is one
 
 ### Create sample application
 
@@ -123,6 +124,12 @@ function AlbumPicker() {
 }
 ```
 
+Also update the import to include `FormEvent`:
+
+```tsx
+import { FormEvent, useState } from 'react'
+```
+
 And then insert an instance of this component into the JSX of the app:
 
 ```tsx
@@ -147,18 +154,26 @@ Get access on Netlify:
   - You might also be able to use [Vercel](https://vercel.com/)
   - or GitHub / GitLab / Cloudflare Pages
 - `npm install -g netlify-cli`
-- `ntl --version`
-  - Should be at least 12.5
+- `netlify --version`
+  - Should be at least 17
 
-Connect project to Netlify
+Login to your Netlify account:
 
-- `ntl init`
-  - Decline giving access to GitHub account (ctrl-c)
+- `netlify login`
+
+Connect project to Netlify:
+
+- `netlify init`
+  - Choose "Create and configure a new site"
+  - Choose your Netlify team created earlier
+  - Enter a site name
+  - Cancel after "Netlify CLI needs access to your GitHub account" (ctrl-c)
 
 Deploy latest code:
 
 - `npm run build`
-- `ntl deploy`
+- `netlify deploy`
+  - choose `dist` directory
 
 Share the URL with friends & family :)
 
