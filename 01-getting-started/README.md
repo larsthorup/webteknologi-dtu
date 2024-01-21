@@ -85,7 +85,7 @@ Goal: get a tiny front-end web application running locally on your machine and d
 
 ![](./vite-react-ts.png)
 
-### Extend application to invoke API
+### Extend sample application to fetch search results
 
 In the file `src/App.tsx`, first add this definition of an `AlbumPicker` React component:
 
@@ -187,6 +187,7 @@ Preference for native platform (as supported by browsers):
 
 Preference for high quality tools (valuable, popular, modern, well maintained)
 
+- Node & NPM (tools and package management)
 - TypeScript (for type checking)
 - React (reactive over imperative)
 - Vite (for bundling)
