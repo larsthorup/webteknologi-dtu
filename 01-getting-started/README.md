@@ -66,6 +66,10 @@ Goal: get a tiny front-end web application running locally on your machine and d
 - Install from https://nodejs.org/en/ unless you have it already
 - `node --version`
   - Should be at least version 18.
+- Installs 3 command line tools:
+  - `node` - javascript runner
+  - `npm` - package manager
+  - `npx` - package executor
 
 ### Git repo
 
@@ -153,17 +157,17 @@ Get access on Netlify:
 - Sign up for a free plan on [Netlify](https://www.netlify.com/).
   - You might also be able to use [Vercel](https://vercel.com/)
   - or GitHub / GitLab / Cloudflare Pages
-- `npm install -g netlify-cli`
-- `netlify --version`
+- `npm install netlify-cli`
+- `npx netlify --version`
   - Should be at least 17
 
 Login to your Netlify account:
 
-- `netlify login`
+- `npx netlify login`
 
 Connect project to Netlify:
 
-- `netlify init`
+- `npx netlify init`
   - Choose "Create and configure a new site"
   - Choose your Netlify team created earlier
   - Enter a site name
@@ -172,7 +176,7 @@ Connect project to Netlify:
 Deploy latest code:
 
 - `npm run build`
-- `netlify deploy`
+- `npx netlify deploy`
   - choose `dist` directory
 
 Share the URL with friends & family :)
