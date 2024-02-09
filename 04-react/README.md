@@ -8,6 +8,7 @@ Please read:
 - [Thinking in React](https://react.dev/learn/thinking-in-react) from Facebook.
 - [Describing the UI](https://react.dev/learn/describing-the-ui) from Facebook.
 - [Adding Interactivity](https://react.dev/learn/adding-interactivity) from Facebook.
+- [Using TypeScript](https://react.dev/learn/typescript) from Facebook.
 
 ## Supplemental reading material
 

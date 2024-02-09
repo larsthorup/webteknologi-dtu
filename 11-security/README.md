@@ -20,6 +20,7 @@ Supplemental reading:
 
 - Prevent unauthorized access to information
 - Must be done server side
+- Has to be done client side when using Local Storage or similar
 - UX: Restrict UI based on user privilege to prevent access control errors
 
 ## Encryption - OWASP 02
