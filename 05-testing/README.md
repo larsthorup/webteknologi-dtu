@@ -87,13 +87,16 @@ export default defineConfig({
 - Configure Testing Library and jest-dom in `vitest.setup.ts`:
 
 ```ts
-import matchers from "@testing-library/jest-dom/matchers";
+import '@testing-library/jest-dom/vitest';
 import { cleanup } from "@testing-library/react";
-import { afterEach, expect } from "vitest";
-
-expect.extend(matchers);
+import { afterEach } from "vitest";
 
 afterEach(cleanup);
+```
+
+- Configure jest-dom in `tsconfig.json`:
+```ts
+  "include": ["src", "./vitest.setup.ts"],
 ```
 
 - Write test for initial App render in `App.test.tsx`:
@@ -136,10 +139,10 @@ const artist = encodeURIComponent(formElements.artist.value);
 ```
 
 ```tsx
-<form onSubmit={handleSubmit} name="search" aria-label="search">
+<form onSubmit={handleSubmit} aria-label="search">
 ```
 
-- Write test for initial App render in `App.test.tsx`:
+- Write test for AlbumPicker in `App.test.tsx`:
 
 ```tsx
 describe(AlbumPicker.name, () => {
@@ -149,19 +152,11 @@ describe(AlbumPicker.name, () => {
 
   it("should show search results", async () => {
     const user = userEvent.setup();
-    const rihannaUrl =
-      "https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna";
-    const mockFetch = vi
-      .spyOn(window, "fetch")
-      .mockImplementation(async (url: RequestInfo | URL) => {
-        if (url === rihannaUrl) {
-          return {
-            json: async () => mockResponse,
-          } as Response;
-        } else {
-          return {} as Response;
-        }
-      });
+    const mockFetch = vi.spyOn(window, "fetch").mockImplementation(async () => {
+      return {
+        json: async () => mockResponse,
+      } as Response;
+    });
 
     render(<AlbumPicker />);
 
@@ -172,7 +167,9 @@ describe(AlbumPicker.name, () => {
 
     await screen.findByText("A Girl Like Me");
 
-    expect(mockFetch).toHaveBeenCalledWith(rihannaUrl);
+    expect(mockFetch).toHaveBeenCalledWith(
+      "https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna"
+    );
   });
 });
 ```
@@ -184,6 +181,28 @@ describe(AlbumPicker.name, () => {
 ## Debugging
 
 View the page in a browser at specific points in your test with [vitest-preview](https://github.com/nvh95/vitest-preview).
+
+- Install and run vitest-preview:
+
+```bash
+npm install vitest-preview
+npx vitest-preview
+```
+
+- Add to test to display in vitest-preview:
+
+```tsx
+import { debug } from "vitest-preview";
+// ....
+    await screen.findByText("A Girl Like Me");
+    debug();
+```
+
+Run the test and see the result in the browser window opened by vitest-preview:
+
+```bash
+npx vitest --run
+```
 
 ## Continuous Integration
 
@@ -215,6 +234,8 @@ jobs:
       - run: npm ci
       - run: npm test
 ```
+
+Push to GitHub and see the result of the test.
 
 ## Next time
 
