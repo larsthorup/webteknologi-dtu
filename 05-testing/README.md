@@ -124,6 +124,7 @@ npx vitest
 
 ```bash
 npx vitest --run --coverage
+# then open coverage/index.html
 ```
 
 - mock-response.json - save response of https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna
