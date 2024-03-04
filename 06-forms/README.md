@@ -21,13 +21,13 @@ Please read:
 
 ## Examples
 
-- greentown.dk
+- https://www.naturhistoriskmuseum.dk/webshop
 - signup
 - newsletter
 - add to cart
-- (adjust cart is not a form)
 - accept terms and conditions
 - delivery
+- payment
 
 ## Forms
 
@@ -80,9 +80,10 @@ Please read:
 ## Testing forms
 
 - Use `.type()`, `.selectOption()`, `.click()` from `@testing-library/user-event`
+- To clear an input use `user.clear(textInput)`
 - To replace value in `<input type="number">`, which cannot be blanked use this trick:
   - `user.type(numericInput, "5{arrowleft}{backspace}")`
-- Submit form by firing the submit event to the form
+- Submit form by firing the submit event to the form: `fireEvent.submit(form)`
 - Test validation using `.toBeValid()` and `.toBeInvalid()` from `jest-dom`.
 - Test custom validation error message with `expect(input.validationMessage).toEqual("...")`
 
