@@ -26,9 +26,11 @@ Please read:
 
 Answering the question: What experience do we want our users to have?
 
-- Sketching (paper, whiteboard)
+- Purpose (why use our app)
+- Personas (who uses our app)
 - Inspiration (similar apps)
-- User flows / user journeys, personas
+- User flows / user journeys (how to use our app)
+- Sketching (paper, whiteboard)
 - Wireframes (Miro, Whimsical, Figma, Draw.io)
 - Prototyping (Figma / HTML / JSX)
 - Feedback (team, user testing)
