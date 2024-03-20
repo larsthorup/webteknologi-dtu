@@ -12,6 +12,10 @@ Please read:
 - [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects)
 - [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
 
+Supplemental reading:
+
+- [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
 ## Why is HTTP exciting?
 
 - Text-based protocol used almost everywhere, easy to debug
