@@ -17,6 +17,7 @@ Please read:
 - Vitest
   - [Getting Started](https://vitest.dev/guide/)
   - [Features](https://vitest.dev/guide/features.html)
+  - [Mocking Functions](https://vitest.dev/guide/mocking#functions)
 
 ## Questions for you
 
