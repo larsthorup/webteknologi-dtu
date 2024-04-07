@@ -6,6 +6,8 @@ Please read:
 
 - [History API](https://developer.mozilla.org/en-US/docs/Web/API/History)
 - [popstate event](https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event)
+- [React Router Tutorial](https://reactrouter.com/en/main/start/tutorial)
+  - Up to and including [Client Side Routing](https://reactrouter.com/en/main/start/tutorial#client-side-routing) 
 - [Using CSS transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)
 - [Using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
