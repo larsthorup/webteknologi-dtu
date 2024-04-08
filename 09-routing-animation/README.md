@@ -93,9 +93,9 @@ First you will have to install React Router for web:
 npm install react-router-dom
 ```
 
-Because the routing will be used both by the main application and the tests, it is useful to define the routes in it own file, mapping a URL path to a React component to render, `routes.ts`:
+Because the routing will be used both by the main application and the tests, it is useful to define the routes in it own file, mapping a URL path to a React component to render, `routes.tsx`:
 
-```ts
+```tsx
 import { RouteObject } from "react-router-dom";
 
 export const routes: RouteObject[] = [
