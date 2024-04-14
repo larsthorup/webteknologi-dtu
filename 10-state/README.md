@@ -41,6 +41,7 @@ For a somewhat serious example of storing state in the URL, look at this cute li
 - Passing state up and down the component hierachy is a very verbose
 - Refactoring component structure becomes very tedious
 - Refactoring state structure becomes very tedious
+- Cannot hoist state above RouterProvider, loosing state on navigation
 
 ## useReducer - reactive objects
 
@@ -63,16 +64,21 @@ Example code structure:
 
 ```tsx
 // Type of state
-type MyState = {...}
+interface MyState = {...}
 
 // Initial state
-const initialMyState = {...}
+const initialMyState: MyState = {...}
 
 // Type of actions
-type MyAction = { type: 'do-this', payload: {...} } | ...
+type MyAction = { type: 'this-happened', payload: {...} } | ...
 
 // Reducer
-const myReducer = (state, action) => { switch(action.type) { case 'do-this': return ... } }
+const myReducer = (state: MyState, action: MyAction) => {
+  switch(action.type) {
+    case 'this-happened':
+      return ...
+  }
+}
 
 // State context
 const MyContext = createContext<MyState | null>(null)
@@ -81,12 +87,15 @@ const MyContext = createContext<MyState | null>(null)
 const MyDispatchContext = createContext<React.Dispatch<MyAction> | null>(null)
 
 // Provider
-type MyProviderProps = React.PropsWithChildren<{myState?: MyState}>
-function MyProvider({ children, myState: explicitMyState }: MyProviderProps) {
-  const [myState, myDispatch] = useReducer(myReducer, explicitMyState || initialMyState);
+type MyProviderProps = React.PropsWithChildren<{state?: MyState}>
+export function MyProvider({ children, state: explicitState }: MyProviderProps) {
+  const [state, dispatch] = useReducer(
+    myReducer,
+    explicitState || initialMyState
+  );
   return (
-    <MyContext.Provider value={myState}>
-      <MyDispatchContext.Provider value={myDispatch}>
+    <MyContext.Provider value={state}>
+      <MyDispatchContext.Provider value={dispatch}>
         {children}
       </MyDispatchContext.Provider>
     </MyContext.Provider>
