@@ -48,8 +48,54 @@ For a somewhat serious example of storing state in the URL, look at this cute li
 - Combining a set of properties into a single state
 - Transactionally update set of properties
 - Works like a state machine
+- Functional Programming alternative to Object Oriented encapsulation
 - Must be pure - no side-effects
 - Immutable to support reactivity
+
+Example reducer for a read-only cache:
+
+```ts
+interface ProductState {
+  data: Record<string, Product>;
+  loading: boolean;
+  error: string;
+}
+
+const initialProductState: ProductState = {
+  data: {},
+  loading: true,
+  error: "",
+};
+
+type ProductAction =
+  | { type: "loaded"; payload: ProductState["data"] }
+  | { type: "failed"; payload: string };
+
+function productReducer(state: ProductState, action: ProductAction) {
+  switch (action.type) {
+    case "loaded":
+      return {
+        ...state,
+        data: action.payload,
+        loading: false,
+        error: "",
+      };
+    case "failed":
+      return {
+        ...state,
+        data: {},
+        loading: false,
+        error: action.payload,
+      };
+  }
+}
+
+// example dispatch
+dispatch({
+  type: "failed",
+  payload: `Failed to load products: ${(err as Error).message}`,
+});
+```
 
 ## React Context
 
