@@ -98,9 +98,11 @@ Supplemental reading:
 ## Implementing password-less authentication with Descope magic links
 
 - Signup and create a project on https://www.descope.com/
-- Ask Descope to send email with link
-- Link to our app with token in URL
-- Ask Descope to verify token and return a session token JWT plus user info
+- `npm install @descope/web-js-sdk`
+- Login.tsx (https://github.com/larsthorup/web-demo-2024)
+  - Ask Descope to send email with link
+  - Link to our app with token in URL
+  - Ask Descope to verify token and return a session token JWT plus user info
 - Include session token in back-end requests in Authorization header
 - Back-end verifies the signature of the session token JWT
 - Back-end extracts user info from JWT
