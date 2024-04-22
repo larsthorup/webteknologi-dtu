@@ -34,13 +34,14 @@ Supplemental reading:
 - Encode user data to avoid code injection
 - URL encoding with `URLSearchParams`
 - HTML is sanitized by React for text elements
-- Avoid putting user data into HTML attributes - or encode it
+- Avoid putting user data into HTML attributes - or sanitize it
 - Content Security Policy - control script loading / injecting
 
 ## Secure design - OWASP 04
 
 - Try to avoid unknown unknowns
 - Perform threat modeling for all features
+- Example: file upload should include scanning for malware
 
 ## Secure configuration - OWASP 05
 
@@ -69,7 +70,8 @@ Supplemental reading:
 - Keep secrets out of front-end assets
 - Keep secrets out of version control (Git)
 - Warn users about saving data on shared browser
-- HTTPOnly cookie
+- LocalStorage might not be safe enough
+- HTTPOnly cookie, not visible to JavaScript
 
 ## Monitoring and logging - OWASP 09
 
@@ -77,7 +79,7 @@ Supplemental reading:
 - Session logging
 - Activity logging
 - Access logging
-- Front-end or back-end
+- Front-end and back-end
 - Also CI pipelines
 
 ## Prevent Server-Side Request Forgery - OWASP 10
@@ -93,7 +95,7 @@ Supplemental reading:
 - Put token in `Authorization` HTTP header, as a bearer token
 - Verify signature of token server-side
 - This now proves that request was made from recently authenticated user
-- Use https://jwt.io/ to decode tokens
+- Use https://jwt.io/ to debug token decoding
 
 ## Implementing password-less authentication with Descope magic links
 
