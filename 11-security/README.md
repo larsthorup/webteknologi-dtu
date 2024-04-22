@@ -91,7 +91,7 @@ Supplemental reading:
 
 - Outsource storing user credentials
 - Third-party identity provider services: Auth0, AWS Cognito, Descope, many more
-- Use a JWT session token with expiry
+- Receive a JWT session token with expiry
 - Put token in `Authorization` HTTP header, as a bearer token
 - Verify signature of token server-side
 - This now proves that request was made from recently authenticated user
